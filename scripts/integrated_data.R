@@ -2,10 +2,8 @@ library(readxl)
 library(dplyr)
 library(stringr)
 
-# Folder containing your Excel files
 data_folder <- "data"
-
-# List all Excel files in the folder
+# All Excel files in the folder
 files <- list.files(data_folder, pattern = "\\.xlsx?$", full.names = TRUE)
 
 # Function to process a single file
