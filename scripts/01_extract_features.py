@@ -270,14 +270,14 @@ def extract_features_methodA(x: np.ndarray, feat_name: str, return_peak_info: bo
     
     return stats_dict
 
-def select_features_methodB(df, **kwargs):
+def extract_features_methodC(df, **kwargs):
     """
     Method B: Extract features with TSFresh (https://tsfresh.readthedocs.io/en/latest/text/introduction.html).
     TODO: Implement this method.
     """
     raise NotImplementedError("Method B not yet implemented")
 
-def select_features_methodC(df, **kwargs):
+def extract_features_methodC(df, **kwargs):
     """
     Method B: Extract features with Catch22 (hhttps://time-series-features.gitbook.io/catch22/information-about-catch22/feature-descriptions).
     TODO: Implement this method.
