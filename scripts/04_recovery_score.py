@@ -1,7 +1,7 @@
 """
 TODO: 04_recovery_score.py
 
-Phase 4: Computes LD1, CWS, Mahalanobis Distance, or Supervised Regression Residuals based recovery score.
+Phase 4: Computes LD1 (in PCA script for now) CWS, Mahalanobis Distance, or Supervised Regression Residuals based recovery score.
 
 Input: 
     `outputs/PCA_results/PCA_scores.csv` (for Methods LD1, CWS, Mahalanobis Distance)
