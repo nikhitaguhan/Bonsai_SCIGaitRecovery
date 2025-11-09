@@ -270,7 +270,7 @@ def extract_features_methodA(x: np.ndarray, feat_name: str, return_peak_info: bo
     
     return stats_dict
 
-def extract_features_methodC(df, **kwargs):
+def extract_features_methodB(df, **kwargs):
     """
     Method B: Extract features with TSFresh (https://tsfresh.readthedocs.io/en/latest/text/introduction.html).
     TODO: Implement this method.
