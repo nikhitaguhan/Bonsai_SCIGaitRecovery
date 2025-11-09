@@ -9,7 +9,7 @@ library(tuneR)
 library(ggplot2)
 # ============================================================
 # --- Data ---
-data_folder <- "data"
+data_folder <- "mock_data"
 files <- list.files(data_folder, pattern = "\\.xlsx?$", full.names = TRUE)
 conditions <- c("PreSCI", "7DPI", "14DPI", "21DPI", "28DPI", "35DPI", "43DPI")
 # ============================================================
